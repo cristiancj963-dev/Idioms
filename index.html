@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vocabulario Chino — Método Campayo</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="dashboard-container">
+        <header class="app-header">
+            <div class="header-content">
+                <h1>Tabla de Vocabulario Básico</h1>
+                <p>Método Ramón Campayo - Traducción al Chino Mandarín</p>
+            </div>
+            <div class="header-actions">
+                <span class="stats">Cargando vocabularios...</span>
+            </div>
+        </header>
+
+        <nav class="category-tabs" id="categoryTabs">
+            <!-- Tabs generadas por JS -->
+        </nav>
+
+        <main class="table-container">
+            <table id="vocabTable">
+                <thead>
+                    <tr>
+                        <th class="col-es">Idioma natal (Español)</th>
+                        <th class="col-pinyin">Pinyin</th>
+                        <th class="col-literal">Pronunciación literal</th>
+                        <th class="col-assoc">Asociación inverosímil</th>
+                        <th class="col-zh">Idioma extranjero (Chino)</th>
+                    </tr>
+                </thead>
+                <tbody id="tableBody">
+                    <!-- Filas generadas por JS -->
+                </tbody>
+            </table>
+        </main>
+    </div>
+
+    <!-- Cargar datos y lógica de la app -->
+    <script src="vocab_data.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
