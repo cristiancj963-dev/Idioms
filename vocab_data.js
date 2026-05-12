@@ -3,6 +3,7 @@ const vocabData = [
     "es": "SER",
     "zh": "是",
     "pinyin": "shì",
+    "literalPronunciation": "shi:",
     "category": "Verbos",
     "isImportant": true
   },
@@ -34,6 +35,7 @@ const vocabData = [
     "es": "QUERER",
     "zh": "想要",
     "pinyin": "xiǎng yào",
+    "literalPronunciation": "siang_ yáo:",
     "category": "Verbos",
     "isImportant": true
   },
@@ -65,6 +67,7 @@ const vocabData = [
     "es": "VIVIR",
     "zh": "直播",
     "pinyin": "zhí bō",
+    "literalPronunciation": "chí bo",
     "category": "Verbos",
     "isImportant": true
   },
@@ -108,6 +111,7 @@ const vocabData = [
     "es": "VER",
     "zh": "参见",
     "pinyin": "cān jiàn",
+    "literalPronunciation": "can chián:",
     "category": "Verbos",
     "isImportant": true
   },
@@ -151,6 +155,7 @@ const vocabData = [
     "es": "HABLAR",
     "zh": "说话",
     "pinyin": "shuō huà",
+    "literalPronunciation": "shuo juá:",
     "category": "Verbos",
     "isImportant": true
   },
@@ -212,6 +217,7 @@ const vocabData = [
     "es": "PENSAR",
     "zh": "认为",
     "pinyin": "rèn wéi",
+    "literalPronunciation": "rren: wéi",
     "category": "Verbos",
     "isImportant": true
   },
@@ -255,6 +261,7 @@ const vocabData = [
     "es": "ESTUDIAR",
     "zh": "学习",
     "pinyin": "xué xí",
+    "literalPronunciation": "sue sí",
     "category": "Verbos",
     "isImportant": true
   },
@@ -346,6 +353,7 @@ const vocabData = [
     "es": "ANDAR",
     "zh": "步行",
     "pinyin": "bù xíng",
+    "literalPronunciation": "bu: síng",
     "category": "Verbos",
     "isImportant": true
   },
@@ -395,6 +403,7 @@ const vocabData = [
     "es": "VIAJAR",
     "zh": "旅行",
     "pinyin": "lǚ xíng",
+    "literalPronunciation": "lu_ síng",
     "category": "Verbos",
     "isImportant": true
   },
@@ -432,6 +441,7 @@ const vocabData = [
     "es": "CANSAR",
     "zh": "累了",
     "pinyin": "lèi le",
+    "literalPronunciation": "léi: le:",
     "category": "Verbos",
     "isImportant": true
   },
@@ -493,6 +503,7 @@ const vocabData = [
     "es": "COMER",
     "zh": "吃",
     "pinyin": "chī",
+    "literalPronunciation": "chi",
     "category": "Verbos",
     "isImportant": true
   },
@@ -530,6 +541,7 @@ const vocabData = [
     "es": "COMPRAR",
     "zh": "购买",
     "pinyin": "gòu mǎi",
+    "literalPronunciation": "gou: mái_",
     "category": "Verbos",
     "isImportant": true
   },
@@ -573,6 +585,7 @@ const vocabData = [
     "es": "DAR",
     "zh": "给予",
     "pinyin": "jǐ yǔ",
+    "literalPronunciation": "chi_ yú_",
     "category": "Verbos",
     "isImportant": true
   },
@@ -628,6 +641,7 @@ const vocabData = [
     "es": "COGER",
     "zh": "抓住",
     "pinyin": "zhuā zhù",
+    "literalPronunciation": "chua chú:",
     "category": "Verbos",
     "isImportant": true
   },
@@ -683,6 +697,7 @@ const vocabData = [
     "es": "PONER",
     "zh": "把",
     "pinyin": "bǎ",
+    "literalPronunciation": "bá_",
     "category": "Verbos",
     "isImportant": true
   },
@@ -726,6 +741,7 @@ const vocabData = [
     "es": "CONTAR",
     "zh": "计数",
     "pinyin": "jì shù",
+    "literalPronunciation": "chi: shú:",
     "category": "Verbos",
     "isImportant": true
   },
@@ -775,6 +791,7 @@ const vocabData = [
     "es": "PERMITIR",
     "zh": "允许",
     "pinyin": "yǔn xǔ",
+    "literalPronunciation": "yun_ sú_",
     "category": "Verbos",
     "isImportant": true
   },
@@ -794,6 +811,7 @@ const vocabData = [
     "es": "ABRIR",
     "zh": "打开",
     "pinyin": "dǎ kāi",
+    "literalPronunciation": "da_ kái",
     "category": "Verbos",
     "isImportant": true
   },
@@ -939,6 +957,7 @@ const vocabData = [
     "es": "AEROPUERTO",
     "zh": "机场",
     "pinyin": "jī chǎng",
+    "literalPronunciation": "chi cháng_",
     "category": "Sustantivos",
     "isImportant": true
   },
@@ -958,6 +977,7 @@ const vocabData = [
     "es": "AVION",
     "zh": "飞机",
     "pinyin": "fēi jī",
+    "literalPronunciation": "fei chí",
     "category": "Sustantivos",
     "isImportant": true
   },
@@ -983,6 +1003,7 @@ const vocabData = [
     "es": "METRO",
     "zh": "地铁",
     "pinyin": "dì tiě",
+    "literalPronunciation": "di: tié_",
     "category": "Sustantivos",
     "isImportant": true
   },
@@ -1014,6 +1035,7 @@ const vocabData = [
     "es": "COCHE",
     "zh": "汽车",
     "pinyin": "qì chē",
+    "literalPronunciation": "chi: ché",
     "category": "Sustantivos",
     "isImportant": true
   },
@@ -1063,6 +1085,7 @@ const vocabData = [
     "es": "PARADA",
     "zh": "停止",
     "pinyin": "tíng zhǐ",
+    "literalPronunciation": "ting chí_",
     "category": "Sustantivos",
     "isImportant": true
   },
@@ -1094,6 +1117,7 @@ const vocabData = [
     "es": "ASIENTO",
     "zh": "座位",
     "pinyin": "zuò wèi",
+    "literalPronunciation": "zuo: wéi:",
     "category": "Sustantivos",
     "isImportant": true
   },
@@ -1131,6 +1155,7 @@ const vocabData = [
     "es": "HOTEL",
     "zh": "酒店",
     "pinyin": "jiǔ diàn",
+    "literalPronunciation": "chiu_ dián:",
     "category": "Sustantivos",
     "isImportant": true
   },
@@ -1174,6 +1199,7 @@ const vocabData = [
     "es": "SALÓN",
     "zh": "客厅",
     "pinyin": "kè tīng",
+    "literalPronunciation": "ke: tíng",
     "category": "Sustantivos",
     "isImportant": true
   },
@@ -1271,6 +1297,7 @@ const vocabData = [
     "es": "DORMITORIO",
     "zh": "卧室",
     "pinyin": "wò shì",
+    "literalPronunciation": "wo: shí:",
     "category": "Sustantivos",
     "isImportant": true
   },
@@ -1314,6 +1341,7 @@ const vocabData = [
     "es": "BAÑO",
     "zh": "浴室",
     "pinyin": "yù shì",
+    "literalPronunciation": "yu: shí:",
     "category": "Sustantivos",
     "isImportant": true
   },
@@ -1345,6 +1373,7 @@ const vocabData = [
     "es": "PAPEL",
     "zh": "纸",
     "pinyin": "zhǐ",
+    "literalPronunciation": "chí_",
     "category": "Sustantivos",
     "isImportant": true
   },
@@ -1364,6 +1393,7 @@ const vocabData = [
     "es": "COCINA",
     "zh": "厨房",
     "pinyin": "chú fáng",
+    "literalPronunciation": "chu fáng",
     "category": "Sustantivos",
     "isImportant": true
   },
@@ -1395,6 +1425,7 @@ const vocabData = [
     "es": "PLATO",
     "zh": "板材",
     "pinyin": "bǎn cái",
+    "literalPronunciation": "ban_ cái",
     "category": "Sustantivos",
     "isImportant": true
   },
@@ -1456,6 +1487,7 @@ const vocabData = [
     "es": "CUBIERTO",
     "zh": "覆盖",
     "pinyin": "fù gài",
+    "literalPronunciation": "fu: gái:",
     "category": "Sustantivos",
     "isImportant": true
   },
@@ -1487,6 +1519,7 @@ const vocabData = [
     "es": "COSA",
     "zh": "东西",
     "pinyin": "dōng xī",
+    "literalPronunciation": "dóng si:",
     "category": "Sustantivos",
     "isImportant": true
   },
@@ -1512,6 +1545,7 @@ const vocabData = [
     "es": "PAÍS",
     "zh": "国家",
     "pinyin": "guó jiā",
+    "literalPronunciation": "guó chia",
     "category": "Sustantivos",
     "isImportant": true
   },
@@ -1597,6 +1631,7 @@ const vocabData = [
     "es": "CALLE",
     "zh": "街道",
     "pinyin": "jiē dào",
+    "literalPronunciation": "chie dáo:",
     "category": "Sustantivos",
     "isImportant": true
   },
@@ -1664,6 +1699,7 @@ const vocabData = [
     "es": "HOSPITAL",
     "zh": "医院",
     "pinyin": "yī yuàn",
+    "literalPronunciation": "yi yuán:",
     "category": "Sustantivos",
     "isImportant": true
   },
@@ -1767,6 +1803,7 @@ const vocabData = [
     "es": "TIENDA",
     "zh": "商店",
     "pinyin": "shāng diàn",
+    "literalPronunciation": "shang dián:",
     "category": "Sustantivos",
     "isImportant": true
   },
@@ -1906,6 +1943,7 @@ const vocabData = [
     "es": "BANCO",
     "zh": "银行",
     "pinyin": "yín háng",
+    "literalPronunciation": "yin jáng",
     "category": "Sustantivos",
     "isImportant": true
   },
@@ -1949,6 +1987,7 @@ const vocabData = [
     "es": "ESCUELA",
     "zh": "学校",
     "pinyin": "xué xiào",
+    "literalPronunciation": "sue siáo:",
     "category": "Sustantivos",
     "isImportant": true
   },
@@ -1974,6 +2013,7 @@ const vocabData = [
     "es": "PAN",
     "zh": "面包",
     "pinyin": "miàn bāo",
+    "literalPronunciation": "mian: báo",
     "category": "Sustantivos",
     "isImportant": true
   },
@@ -2047,6 +2087,7 @@ const vocabData = [
     "es": "CARNE",
     "zh": "肉",
     "pinyin": "ròu",
+    "literalPronunciation": "rróu:",
     "category": "Sustantivos",
     "isImportant": true
   },
@@ -2078,6 +2119,7 @@ const vocabData = [
     "es": "PESCADO",
     "zh": "鱼",
     "pinyin": "yú",
+    "literalPronunciation": "yú",
     "category": "Sustantivos",
     "isImportant": true
   },
@@ -2103,6 +2145,7 @@ const vocabData = [
     "es": "POSTRE",
     "zh": "甜点",
     "pinyin": "tián diǎn",
+    "literalPronunciation": "tian dián_",
     "category": "Sustantivos",
     "isImportant": true
   },
@@ -2188,6 +2231,7 @@ const vocabData = [
     "es": "CAFÉ",
     "zh": "咖啡",
     "pinyin": "kā fēi",
+    "literalPronunciation": "ka féi",
     "category": "Sustantivos",
     "isImportant": true
   },
@@ -2375,6 +2419,7 @@ const vocabData = [
     "es": "HOMBRE",
     "zh": "男人",
     "pinyin": "nán rén",
+    "literalPronunciation": "nan rré",
     "category": "Sustantivos",
     "isImportant": true
   },
@@ -2442,6 +2487,7 @@ const vocabData = [
     "es": "AMIGO",
     "zh": "朋友",
     "pinyin": "péng yǒu",
+    "literalPronunciation": "peng yóu_",
     "category": "Sustantivos",
     "isImportant": true
   },
@@ -2485,6 +2531,7 @@ const vocabData = [
     "es": "TRABAJO",
     "zh": "工作",
     "pinyin": "gōng zuò",
+    "literalPronunciation": "gong zuó:",
     "category": "Sustantivos",
     "isImportant": true
   },
@@ -2582,6 +2629,7 @@ const vocabData = [
     "es": "IDEA",
     "zh": "想法",
     "pinyin": "xiǎng fǎ",
+    "literalPronunciation": "siang_ fá_",
     "category": "Sustantivos",
     "isImportant": true
   },
@@ -2619,6 +2667,7 @@ const vocabData = [
     "es": "NOMBRE",
     "zh": "名称",
     "pinyin": "míng chēng",
+    "literalPronunciation": "ming chéng",
     "category": "Sustantivos",
     "isImportant": true
   },
@@ -2650,6 +2699,7 @@ const vocabData = [
     "es": "ROPA",
     "zh": "服装",
     "pinyin": "fú zhuāng",
+    "literalPronunciation": "fu chuáng",
     "category": "Sustantivos",
     "isImportant": true
   },
@@ -2813,6 +2863,7 @@ const vocabData = [
     "es": "TELA",
     "zh": "面料",
     "pinyin": "miàn liào",
+    "literalPronunciation": "mian: liáo:",
     "category": "Sustantivos",
     "isImportant": true
   },
@@ -2838,6 +2889,7 @@ const vocabData = [
     "es": "MATERIAL",
     "zh": "材料",
     "pinyin": "cái liào",
+    "literalPronunciation": "cai liáo:",
     "category": "Sustantivos",
     "isImportant": true
   },
@@ -2875,6 +2927,7 @@ const vocabData = [
     "es": "TIEMPO",
     "zh": "时间",
     "pinyin": "shí jiān",
+    "literalPronunciation": "shi chián",
     "category": "Sustantivos",
     "isImportant": true
   },
@@ -2936,6 +2989,7 @@ const vocabData = [
     "es": "HOY",
     "zh": "今天",
     "pinyin": "jīn tiān",
+    "literalPronunciation": "chin tián",
     "category": "Sustantivos",
     "isImportant": true
   },
@@ -2973,6 +3027,7 @@ const vocabData = [
     "es": "SEMANA",
     "zh": "周",
     "pinyin": "zhōu",
+    "literalPronunciation": "chou",
     "category": "Sustantivos",
     "isImportant": true
   },
@@ -3034,6 +3089,7 @@ const vocabData = [
     "es": "MES",
     "zh": "月份",
     "pinyin": "yuè fèn",
+    "literalPronunciation": "yue: fén:",
     "category": "Sustantivos",
     "isImportant": true
   },
@@ -3197,6 +3253,7 @@ const vocabData = [
     "es": "FIESTA",
     "zh": "派对",
     "pinyin": "pài duì",
+    "literalPronunciation": "pai: duí:",
     "category": "Sustantivos",
     "isImportant": true
   },
@@ -3234,6 +3291,7 @@ const vocabData = [
     "es": "CUERPO",
     "zh": "身体",
     "pinyin": "shēn tǐ",
+    "literalPronunciation": "shen tí_",
     "category": "Sustantivos",
     "isImportant": true
   },
@@ -3457,6 +3515,7 @@ const vocabData = [
     "es": "BUENO",
     "zh": "好",
     "pinyin": "hǎo",
+    "literalPronunciation": "jáo_",
     "category": "Adjetivos",
     "isImportant": true
   },
@@ -3488,6 +3547,7 @@ const vocabData = [
     "es": "MAYOR",
     "zh": "专业",
     "pinyin": "zhuān yè",
+    "literalPronunciation": "chuan yé:",
     "category": "Adjetivos",
     "isImportant": true
   },
@@ -3525,6 +3585,7 @@ const vocabData = [
     "es": "BONITO",
     "zh": "尼斯",
     "pinyin": "ní sī",
+    "literalPronunciation": "ní si",
     "category": "Adjetivos",
     "isImportant": true
   },
@@ -3550,6 +3611,7 @@ const vocabData = [
     "es": "LIMPIO",
     "zh": "干净",
     "pinyin": "gān jìng",
+    "literalPronunciation": "gan chíng:",
     "category": "Adjetivos",
     "isImportant": true
   },
@@ -3593,6 +3655,7 @@ const vocabData = [
     "es": "LISTO",
     "zh": "准备好",
     "pinyin": "zhǔn bèi hǎo",
+    "literalPronunciation": "chun_ bei: jáo_",
     "category": "Adjetivos",
     "isImportant": true
   },
@@ -3648,6 +3711,7 @@ const vocabData = [
     "es": "LIBRE",
     "zh": "免费",
     "pinyin": "miǎn fèi",
+    "literalPronunciation": "mian_ féi:",
     "category": "Adjetivos",
     "isImportant": true
   },
@@ -3679,6 +3743,7 @@ const vocabData = [
     "es": "JOVEN",
     "zh": "年轻的",
     "pinyin": "nián qīng de",
+    "literalPronunciation": "nian ching de:",
     "category": "Adjetivos",
     "isImportant": true
   },
@@ -3728,6 +3793,7 @@ const vocabData = [
     "es": "FINO",
     "zh": "很好",
     "pinyin": "hěn hǎo",
+    "literalPronunciation": "jén jáo_",
     "category": "Adjetivos",
     "isImportant": true
   },
@@ -3771,6 +3837,7 @@ const vocabData = [
     "es": "AGRADABLE",
     "zh": "尼斯",
     "pinyin": "ní sī",
+    "literalPronunciation": "ní si",
     "category": "Adjetivos",
     "isImportant": true
   },
@@ -3796,6 +3863,7 @@ const vocabData = [
     "es": "ALEGRE",
     "zh": "开朗的",
     "pinyin": "kāi lǎng de",
+    "literalPronunciation": "kai láng_ de:",
     "category": "Adjetivos",
     "isImportant": true
   },
@@ -3821,6 +3889,7 @@ const vocabData = [
     "es": "COLOR",
     "zh": "颜色",
     "pinyin": "yán sè",
+    "literalPronunciation": "yan sé:",
     "category": "Adjetivos",
     "isImportant": true
   },
@@ -3942,6 +4011,7 @@ const vocabData = [
     "es": "BIEN",
     "zh": "好",
     "pinyin": "hǎo",
+    "literalPronunciation": "jáo_",
     "category": "Adverbios",
     "isImportant": true
   },
@@ -3967,6 +4037,7 @@ const vocabData = [
     "es": "QUIZÁ",
     "zh": "也许",
     "pinyin": "yě xǔ",
+    "literalPronunciation": "ye_ sú_",
     "category": "Adverbios",
     "isImportant": true
   },
@@ -3986,6 +4057,7 @@ const vocabData = [
     "es": "MUY",
     "zh": "非常",
     "pinyin": "fēi cháng",
+    "literalPronunciation": "fei cháng",
     "category": "Adverbios",
     "isImportant": true
   },
@@ -4065,6 +4137,7 @@ const vocabData = [
     "es": "AHORA",
     "zh": "现在",
     "pinyin": "xiàn zài",
+    "literalPronunciation": "sian zái:",
     "category": "Adverbios",
     "isImportant": true
   },
@@ -4120,6 +4193,7 @@ const vocabData = [
     "es": "AQUÍ",
     "zh": "这里",
     "pinyin": "zhè lǐ",
+    "literalPronunciation": "ché: lí_",
     "category": "Adverbios",
     "isImportant": true
   },
@@ -4175,6 +4249,7 @@ const vocabData = [
     "es": "DENTRO",
     "zh": "里面",
     "pinyin": "lǐ miàn",
+    "literalPronunciation": "li_ mián:",
     "category": "Adverbios",
     "isImportant": true
   },
@@ -4200,6 +4275,7 @@ const vocabData = [
     "es": "RÁPIDO",
     "zh": "快",
     "pinyin": "kuài",
+    "literalPronunciation": "kuái:",
     "category": "Adverbios",
     "isImportant": true
   },
@@ -4237,6 +4313,7 @@ const vocabData = [
     "es": "SALUDAR",
     "zh": "问候",
     "pinyin": "wèn hòu",
+    "literalPronunciation": "uen: jóu:",
     "category": "Saludos y Extras",
     "isImportant": true
   },
@@ -4370,6 +4447,7 @@ const vocabData = [
     "es": "ESTE",
     "zh": "这个",
     "pinyin": "zhè ge",
+    "literalPronunciation": "ché: ge:",
     "category": "Pronombres",
     "isImportant": true
   },
@@ -4485,6 +4563,7 @@ const vocabData = [
     "es": "QUE",
     "zh": "什么",
     "pinyin": "shén me",
+    "literalPronunciation": "shén me:",
     "category": "Pronombres",
     "isImportant": true
   },
@@ -4498,6 +4577,7 @@ const vocabData = [
     "es": "NÚMERO",
     "zh": "数量",
     "pinyin": "shù liàng",
+    "literalPronunciation": "shu: liáng:",
     "category": "Números",
     "isImportant": true
   },
@@ -4577,6 +4657,7 @@ const vocabData = [
     "es": "DIEZ",
     "zh": "十",
     "pinyin": "shí",
+    "literalPronunciation": "shí",
     "category": "Números",
     "isImportant": true
   },
@@ -4650,6 +4731,7 @@ const vocabData = [
     "es": "PRIMERO",
     "zh": "首先",
     "pinyin": "shǒu xiān",
+    "literalPronunciation": "shou_ sián",
     "category": "Números",
     "isImportant": true
   },
@@ -4849,6 +4931,7 @@ const vocabData = [
     "es": "PODER",
     "zh": "电源",
     "pinyin": "diàn yuán",
+    "literalPronunciation": "dian: yuán",
     "category": "Tiempos Verbales",
     "isImportant": true
   },

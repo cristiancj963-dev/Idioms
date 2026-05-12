@@ -61,7 +61,7 @@ document.addEventListener('DOMContentLoaded', () => {
             if (isMatchCategory && matchesSearch) {
                 count++;
                 const assocVal = savedAssocs[item.es] || '';
-                const literalVal = savedLiterals[item.es] || '';
+                const literalVal = savedLiterals[item.es] || item.literalPronunciation || '';
                 visibleItems.push({
                     item,
                     assocVal,

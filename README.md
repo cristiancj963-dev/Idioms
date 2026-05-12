@@ -9,6 +9,32 @@ El método se basa en la premisa de que la memorización de vocabulario puede ac
 1.  **Pronunciación Literal**: En lugar de depender únicamente del Pinyin, el estudiante escribe cómo "oye" la palabra en su propio idioma. Esto crea un ancla auditiva más fuerte.
 2.  **Asociación Inverosímil**: Para recordar el significado, se crea una imagen mental absurda, exagerada o graciosa que conecte el sonido de la palabra extranjera con su significado en español. Cuanto más extraña sea la asociación, más fácil será de recordar.
 
+### 📝 Reglas de la Pronunciación Literal
+
+La columna "Pronunciación literal" viene pre-rellena para las palabras importantes usando estas reglas de transcripción del pinyin al castellano:
+
+**Equivalencias de consonantes:**
+
+| Pinyin | Suena como en español | Ejemplo |
+|--------|----------------------|---------|
+| j, q, zh, ch | ch | jī → chi, qì → chi: |
+| x | s | xiǎng → siang_ |
+| sh | sh | shì → shi: |
+| r (inicial) | rr | rén → rré |
+| h | j (jamón) | hǎo → jáo_ |
+| c, z, s | c, z, s | cān → can |
+
+**Marcadores de longitud silábica:**
+
+- `_` = sílaba alargada (tono 3º del chino, como `bá_` de bǎ)
+- `:` = sílaba acortada (tono 4º del chino, como `shi:` de shì)
+
+**Sílaba tónica:** Se marca con el acento agudo español (´) sobre la vocal que lleva el énfasis, siguiendo las reglas ortográficas del español.
+
+**Mayúsculas:** Solo cuando una letra en pinyin suena como dos letras españolas (ej: la "i" inglesa sonaría como "AI"). En chino mandarín apenas ocurre, por lo que apenas se usa.
+
+**Nota:** El usuario puede modificar libremente este campo en la interfaz; los cambios se guardan en localStorage y persisten entre sesiones.
+
 ## 🚀 Funcionamiento de la Aplicación
 
 La aplicación consta de dos partes: un pipeline de datos en Python y una interfaz de estudio en JS.
