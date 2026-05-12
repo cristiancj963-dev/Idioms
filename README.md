@@ -28,6 +28,8 @@ La aplicación web permite al usuario:
 - **Filtrar por Categorías**: Organizar el estudio por tipo de palabra o enfocarse en las "Palabras importantes".
 - **Registro Personalizado**: El usuario puede ingresar su propia *Pronunciación Literal* y *Asociación Inverosímil* directamente en la tabla.
 - **Persistencia Local**: Todas las asociaciones y pronunciaciones se guardan automáticamente en el `localStorage` del navegador, permitiendo que el progreso se mantenga entre sesiones.
+ - **Búsqueda en vivo**: Hay una barra de búsqueda en la cabecera que filtra por palabra en español, Pinyin o chino.
+ - **Interfaz mejorada**: Tema oscuro optimizado con animaciones sutiles y entradas enfocadas para una experiencia cómoda de estudio.
 
 ## 📦 Instalación y Uso
 

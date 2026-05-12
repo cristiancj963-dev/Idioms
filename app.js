@@ -5,6 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const categories = ['Todas', 'Palabras importantes', ...new Set(vocabData.map(item => item.category))];
     let activeCategory = 'Todas';
+    let searchTerm = '';
 
     const savedAssocs = JSON.parse(localStorage.getItem('campayo_assocs')) || {};
     const savedLiterals = JSON.parse(localStorage.getItem('campayo_literals')) || {};
@@ -32,17 +33,32 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
+    // Search input handling
+    const searchInput = document.getElementById('searchInput');
+    if (searchInput) {
+        searchInput.addEventListener('input', (e) => {
+            searchTerm = e.target.value.trim().toLowerCase();
+            renderTable();
+        });
+    }
+
     function renderTable() {
         let htmlContent = '';
         let count = 0;
         const visibleItems = [];
 
         vocabData.forEach((item) => {
-            const isMatch = (activeCategory === 'Todas') || 
+            const isMatchCategory = (activeCategory === 'Todas') || 
                             (activeCategory === 'Palabras importantes' && item.isImportant) || 
                             (activeCategory !== 'Palabras importantes' && item.category === activeCategory);
 
-            if (isMatch) {
+            // Search matches either spanish, pinyin or chinese
+            const lowerEs = (item.es || '').toLowerCase();
+            const lowerPinyin = (item.pinyin || '').toLowerCase();
+            const lowerZh = (item.zh || '').toLowerCase();
+            const matchesSearch = !searchTerm || lowerEs.includes(searchTerm) || lowerPinyin.includes(searchTerm) || lowerZh.includes(searchTerm);
+
+            if (isMatchCategory && matchesSearch) {
                 count++;
                 const assocVal = savedAssocs[item.es] || '';
                 const literalVal = savedLiterals[item.es] || '';
